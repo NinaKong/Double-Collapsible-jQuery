@@ -1,0 +1,48 @@
+/*Nina Kong*/
+body {
+    font-family: Dosis, arial, sans-serif;
+    font-size: 20px;
+}
+h1 {
+	padding: 10px 20px;
+}
+.container {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.FirstLayerTitle {
+	background: #4696e5;
+	border: 1px solid #fff;
+	padding: 10px;
+}
+.FirstLayerTitle span,
+.FirstLayerTitle i {
+	color: #fff;
+}
+.FirstLayerDetail div{
+	padding: 10px;
+}
+.SecondLayerTitle div:first-child {
+	display: inline-block;
+}
+.SecondLayerTitle span,
+.SecondLayerTitle i {
+	color: #4696e5;
+}
+.SecondLayerDetail div {
+	padding: 10px;
+	border:  1px solid #4696e5;
+}
+.SecondLayerDetail span {
+	color: #4696e5;
+}
+/*Ultility*/
+.align-left {
+	text-align: left;
+}
+.align-right {
+	text-align: right;
+}
+.float-right {
+	float: right;
+}
