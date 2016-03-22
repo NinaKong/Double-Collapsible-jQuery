@@ -22,24 +22,24 @@ A demo can be found at 'Collapse.html' in this repository.
     <script type="text/javascript" src="js/script.js"></script>
 #Following is an example section that you could apply this plugin
     <div class="col-md-12 col-sm-12 col-xs-12">
-            <a class="col-md-5 col-sm-5 col-xs-12 FirstLayerTitle">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <span class="col-md-10 col-sm-10 col-xs-10 align-left">Star Wars</span>
-                    <i id ="FirstIcon" class="fa fa-chevron-right col-md-2 col-sm-2 col-xs-2 align-right"></i>
-                </div>
+        <a class="col-md-5 col-sm-5 col-xs-12 FirstLayerTitle">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <span class="col-md-10 col-sm-10 col-xs-10 align-left">Star Wars</span>
+                <i id ="FirstIcon" class="fa fa-chevron-right col-md-2 col-sm-2 col-xs-2 align-right"></i>
+            </div>
+        </a>
+    </div>
+    <div class="FirstLayerDetail col-md-12 col-sm-12 col-xs-12">
+        <div class="col-md-5 col-sm-5 col-xs-12">
+            <a href="#" class="SecondLayerTitle col-md-12 col-sm-12 col-xs-12">
+                <span class="col-md-10 col-sm-10 col-xs-10 align-left">Darth Vader</span>
+                <i id="secondIcon" class="fa fa-chevron-right align-right col-md-2 col-sm-2 col-xs-2"></i>
             </a>
         </div>
-        <div class="FirstLayerDetail col-md-12 col-sm-12 col-xs-12">
+        <div class="col-md-12 col-sm-12 col-xs-12 SecondLayerDetail align-left">
             <div class="col-md-5 col-sm-5 col-xs-12">
-                <a href="#" class="SecondLayerTitle col-md-12 col-sm-12 col-xs-12">
-                    <span class="col-md-10 col-sm-10 col-xs-10 align-left">Darth Vader</span>
-                    <i id="secondIcon" class="fa fa-chevron-right align-right col-md-2 col-sm-2 col-xs-2"></i>
-                </a>
-            </div>
-            <div class="col-md-12 col-sm-12 col-xs-12 SecondLayerDetail align-left">
-                <div class="col-md-5 col-sm-5 col-xs-12">
-                    <span>Come to the dark side<span>
-                </div>
+                <span>Come to the dark side<span>
             </div>
         </div>
+    </div>
 
